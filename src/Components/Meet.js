@@ -11,8 +11,8 @@ export default function Meet() {
 <section className={styles.team_section}  id="myClients">
         <div class='container'>
           <div class='heading_container heading_center'>
-            {/* <h2>Meet Ninja Online </h2>
-            <p>
+            <h2>Meet Ninja Online </h2>
+            {/* <p>
               Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a
               euismod suspendisse vel, sed quam nulla mauris iaculis. Erat eget
               vitae malesuada, tortor tincidunt porta lorem lectus.
