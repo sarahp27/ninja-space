@@ -14,7 +14,7 @@ export default function Navbar() {
     <div className='Navbar-container'>
       <nav
         className='navbar navbar-expand-lg navbar-dark fixed-top'
-        style={{ backgroundColor: "#272466" }}
+        style={{ backgroundColor: "#272466", cursor:'pointer' }}
       >
         <div className='container-fluid'>
           <img src={logo01} alt='logo-ninja' width='150px' height='auto' />

@@ -1,9 +1,20 @@
 import React from "react";
 import WEBSITE_images_work_1 from '../images/WEBSITE_images_work_1.png';
+import WEBSITE_images_work_2 from '../images/WEBSITE_images_work_2.png';
+import WEBSITE_images_work_3 from '../images/WEBSITE_images_work_3.png';
 import styles from './Main.module.css'
 
 
 export default function Work() {
+  function toHealit() {
+    window.open('https://www.behance.net/gallery/180884139/Heal-It', "_blank")
+  }
+  function tosunday() {
+    window.open('https://www.behance.net/gallery/181006577/Sunday-ice-cream-Branding', "_blank")
+  }
+  function toBurger() {
+    window.open('https://www.behance.net/gallery/180503639/MrBurger-Relaunch', "_blank")
+  }
   return (
     <>
        <section className={styles.work_section} id="myWork">
@@ -37,7 +48,7 @@ export default function Work() {
                     quia eum in doloribus debitis impedit ut minus tenetur
                     corrupti excepturi ullam.
                   </p>
-                  <button className={styles.ninjaBtns}>View Porfolio</button>
+                  <button className={styles.ninjaBtns} onClick={toHealit}>View Porfolio</button>
                   {/* <a href=''>Read More</a> */}
                 </div>
               </div>
@@ -45,7 +56,7 @@ export default function Work() {
             <div class='col-md-4'>
             <div className ={styles.box}>
                 <div className={styles.imgBox}>
-                <img src={WEBSITE_images_work_1} alt=''  width='200px'/>
+                <img src={WEBSITE_images_work_2} alt=''  width='200px'/>
                   
                 </div>
                 <div className ={styles.detailBox}>
@@ -57,14 +68,14 @@ export default function Work() {
                     corrupti excepturi ullam.
                   </p>
                   {/* <a href=''>Read More</a> */}
-                  <button  className={styles.ninjaBtns}>View Porfolio</button>
+                  <button  className={styles.ninjaBtns} onClick={tosunday}>View Porfolio</button>
                 </div>
               </div>
             </div>
             <div class='col-md-4'>
             <div className ={styles.box}>
                 <div className={styles.imgBox}>
-                <img src={WEBSITE_images_work_1} alt=''  width='200px'/>
+                <img src={WEBSITE_images_work_3} alt=''  width='200px'/>
                   
                 </div>
                 <div className ={styles.detailBox}>
@@ -75,7 +86,7 @@ export default function Work() {
                     quia eum in doloribus debitis impedit ut minus tenetur
                     corrupti excepturi ullam.
                   </p>
-                  <button  className={styles.ninjaBtns}>View Porfolio</button>
+                  <button  className={styles.ninjaBtns} onClick={toBurger}>View Porfolio</button>
                   {/* <a href=''>Read More</a> */}
                 </div>
               </div>

@@ -246,7 +246,8 @@ a:focus {
   }
   
   .service_section .box .imgBox {
-    width: 145px;
+    /* width: 145px; */
+    width: 50%;
   }
   
   .service_section .box .imgBox img {
@@ -319,3 +320,143 @@ a:focus {
     right: 0;
   }
   
+/* Meet ninjas Online section*/
+
+.team_section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: 45px;
+  position: relative;
+}
+
+.team_section .box .img-box {
+  width: 100%;
+}
+
+.team_section .box .img-box img {
+  width: 100%;
+}
+
+
+
+.team_section .box .detail-box:hover{
+  height: 100%;
+}
+
+.team_section .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.team_section .btn-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #f1db25;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+}
+
+.team_section .btn-box a:hover {
+  background-color: transparent;
+  border-color: #f1db25;
+  color: #f1db25;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: #7c8e94; */
+  background-color: rgba(28, 28, 28, 0.75);
+  color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .9s ease;
+  padding: 25px 15px;
+  text-align: center;
+  cursor: pointer;
+  /* border-radius: 50%; */
+}
+
+.ninjacontainer:hover .overlay{
+height: 100%;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* border-radius: 50%; */
+}
+
+.team_section .box .detail-box {
+  position: absolute;
+  width: 100%;
+  color: #ffffff;
+  padding: 25px 15px;
+  text-align: center;
+  bottom: 0;
+  height: 50px;
+  /* background-color: rgba(28, 28, 28, 0.75); */
+  transition: 0.9s ease-out;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20% 10%;
+}
+
+/*Connect to us section*/
+
+.contact_form_display{
+  display: flex;
+  flex-direction:column;
+  color: #ffffff;
+  /* margin: 10px; */
+}
+
+/*Footer section*/
+.footer_section {
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #101010;
+}
+
+.footer_section p {
+  color: rgba(254, 254, 255, 0.7);
+  margin: 0;
+  text-align: center;
+}
+
+.footer_section a {
+  color: rgba(254, 254, 255, 0.7);
+}

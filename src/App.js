@@ -1,7 +1,12 @@
+import Clients from "./Components/Clients";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import Services from "./Components/Services";
 import Work from "./Components/Work";
+import TestClient from "./Components/TestClient";
+import Meet from './Components/Meet'
+import Footer from "./Components/Footer";
+import Connect from "./Components/Connect";
 // import styles from ''
 
 function App() {
@@ -11,6 +16,10 @@ function App() {
     <Home/>
     <Work/>
     <Services/>
+    <TestClient/>
+    <Meet/>
+    {/* <Connect/> */}
+    <Footer/>
     </>
   );
 }

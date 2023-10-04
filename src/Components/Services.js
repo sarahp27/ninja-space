@@ -1,8 +1,13 @@
 import React from "react";
-import Client_1 from '../images/Client_1.png';
-import Client_2 from '../images/Client_2.png';
-import Client_3 from '../images/Client_3.png'; 
 import styles from './Main.module.css';
+import Service_2 from '../images/Service_2.png';
+import Service_3 from '../images/Service_3.png';
+import Service_4 from '../images/Service_4.png';
+import Service_5 from '../images/Service_5.png';
+import Service_6 from '../images/Service_6.png';
+import Service_7 from '../images/Service_7.png';
+
+
 
 export default function Services() {
   return (
@@ -17,16 +22,16 @@ export default function Services() {
     </div>
     <div
       id='carouselExampleControls'
-      class='carousel'
+      class='carousel slide'
       data-ride='carousel'
     >
-      <div class='carousel'>
+      <div class='carousel-inner'>
         <div class='carousel-item active'>
           <div className ={styles.box}>
             <div className ={styles.imgBox}>
-              <img src={Client_1} alt='' />
+              <img src={Service_2} alt='' />
             </div>
-            <div className ={styles.detailBox}>
+            {/* <div className ={styles.detailBox}>
               <h4>Minim Veniam</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -34,15 +39,15 @@ export default function Services() {
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                 ullamco laboris nisi ut aliquip
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div class='carousel_item'>
+        <div class='carousel-item'>
         <div className ={styles.box}>
           <div className ={styles.imgBox}>
-              <img src={Client_2} alt='' />
+              <img src={Service_3} alt='' />
             </div>
-            <div className ={styles.detailBox}>
+            {/* <div className ={styles.detailBox}>
               <h4>Minim Veniam</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -50,15 +55,15 @@ export default function Services() {
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                 ullamco laboris nisi ut aliquip
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div class='carousel-item '>
+        <div class='carousel-item'>
         <div className ={styles.box}>
         <div className ={styles.imgBox}>
-              <img src={Client_3} alt='' />
+              <img src={Service_4} alt='' />
             </div>
-            <div className ={styles.detailBox}>
+            {/* <div className ={styles.detailBox}>
               <h4>Minim Veniam</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -66,6 +71,13 @@ export default function Services() {
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                 ullamco laboris nisi ut aliquip
               </p>
+            </div> */}
+          </div>
+        </div>
+        <div class='carousel-item'>
+        <div className ={styles.box}>
+        <div className ={styles.imgBox}>
+              <img src={Service_5} alt='' />
             </div>
           </div>
         </div>
@@ -73,6 +85,7 @@ export default function Services() {
       <div className={styles.carousel_btn_box}>
         <a
           className={styles.carousel_control_prev}
+          
           href='#carouselExampleControls'
           role='button'
           data-slide='prev'
