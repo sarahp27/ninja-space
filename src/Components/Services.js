@@ -16,7 +16,7 @@ export default function Services() {
 
 <section id='myServices' className ={styles.service_section}>
   <div class='container '>
-    <div class='heading_container heading_center'>
+    <div className={styles.heading_container}>
       <h2>OUR SERVICES</h2>
       
     </div>
@@ -28,54 +28,65 @@ export default function Services() {
       <div class='carousel-inner'>
         <div class='carousel-item active'>
           <div className ={styles.box}>
+          <div className ={styles.detailBox}>
+          <h5>Minim Veniam</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip
+              </p>
+            </div>
             <div className ={styles.imgBox}>
               <img src={Service_2} alt='' />
             </div>
-            {/* <div className ={styles.detailBox}>
-              <h4>Minim Veniam</h4>
+            
+          </div>
+        </div>
+        <div class='carousel-item'>
+        <div className ={styles.box}>
+          <div className ={styles.detailBox}>
+          <h5>Minim Veniam</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                 ullamco laboris nisi ut aliquip
               </p>
-            </div> */}
-          </div>
-        </div>
-        <div class='carousel-item'>
-        <div className ={styles.box}>
+            </div>
           <div className ={styles.imgBox}>
               <img src={Service_3} alt='' />
             </div>
-            {/* <div className ={styles.detailBox}>
-              <h4>Minim Veniam</h4>
+            
+          </div>
+        </div>
+        <div class='carousel-item'>
+        <div className ={styles.box}>
+        <div className ={styles.detailBox}>
+        <h5>Minim Veniam</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                 ullamco laboris nisi ut aliquip
               </p>
-            </div> */}
-          </div>
-        </div>
-        <div class='carousel-item'>
-        <div className ={styles.box}>
+            </div>
         <div className ={styles.imgBox}>
               <img src={Service_4} alt='' />
             </div>
-            {/* <div className ={styles.detailBox}>
-              <h4>Minim Veniam</h4>
+          </div>
+        </div>
+        <div class='carousel-item'>
+        <div className ={styles.box}>
+        <div className ={styles.detailBox}>
+              <h5>Minim Veniam</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                 ullamco laboris nisi ut aliquip
               </p>
-            </div> */}
-          </div>
-        </div>
-        <div class='carousel-item'>
-        <div className ={styles.box}>
+            </div>
         <div className ={styles.imgBox}>
               <img src={Service_5} alt='' />
             </div>
@@ -84,22 +95,24 @@ export default function Services() {
       </div>
       <div className={styles.carousel_btn_box}>
         <a
+        class='carousel-control-prev'
           className={styles.carousel_control_prev}
           
-          href='#carouselExampleControls'
+          href=''
           role='button'
           data-slide='prev'
         >
-          <i class='fa fa-angle-left' aria-hidden='true'></i>
-          <span class='sr-only'>Previous</span>
+          <i class='fa fa-arrow-left' aria-hidden='true'></i>
+          {/* <span class='sr-only'>Previous</span> */}
         </a>
         <a
+        class='carousel-control-next'
           className={styles.carousel_control_next}
-          href='#carouselExampleControls'
+          href=''
           role='button'
           data-slide='next'
         >
-          <i class='fa fa-angle-right' aria-hidden='true'></i>
+          <i class="fa fa-arrow-right" aria-hidden='true'></i>
           <span class='sr-only'>Next</span>
         </a>
       </div>

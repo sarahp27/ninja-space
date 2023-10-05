@@ -1,14 +1,14 @@
 import React from 'react'
 import styles from './Main.module.css';
 import BG_elements from '../images/BG_elements.png'
-import Client_1 from '../images/Client_1.png';
-import Client_2 from '../images/Client_2.png';
-import Client_3 from '../images/Client_3.png'; 
+import ninja1 from '../images/meet_ninjas-02.png';
+import Client_2 from '../images/meet_ninjas-03.png';
+import Client_3 from '../images/meet_ninjas-04.png'; 
 export default function Meet() {
   return (
     <>
      
-<section className={styles.team_section}  id="myClients">
+<section className={styles.team_section}  id="meetNinjasonline">
         <div class='container'>
           <div class='heading_container heading_center'>
             <h2>Meet Ninja Online </h2>
@@ -22,7 +22,7 @@ export default function Meet() {
             <div class='col-md-4 col-sm-6 mx-auto '>
             <div className={styles.box}>
                 <div className={styles.ninjacontainer}>
-                  <img src={Client_1} alt='' className={styles.image} />
+                  <img src={ninja1} alt='' className={styles.image} />
                 
                 <div className={styles.overlay}>
                 <div className={styles.text}>
@@ -44,7 +44,7 @@ export default function Meet() {
                   <div className={styles.overlay}>
                 <div className={styles.text}>
                   <h5>Animation Alchemist</h5>
-                  <h6 class=''>Motion Ninja</h6>
+                  <h6>Motion Ninja</h6>
                   <p>Motion Ninja breathes life into stillness, conjuring captivating animations that dance and mesmerize.
                      Their animations are more than mere graphics; they're enchantments that tell stories in motion.</p>
                      </div>
@@ -57,7 +57,7 @@ export default function Meet() {
             <div class='col-md-4 col-sm-6 mx-auto '>
               <div className={styles.box}>
               <div className={styles.ninjacontainer}>
-                  <img src={Client_2} className={styles.image} alt="blocks" />
+                  <img src={Client_3} className={styles.image} alt="blocks" />
                 
                   <div className={styles.overlay}>
                 <div className={styles.text}>

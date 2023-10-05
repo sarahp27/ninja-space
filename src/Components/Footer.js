@@ -46,8 +46,60 @@ export default function Footer() {
               </div>
             </div>
             <div class='col-md-3'>
-              <div className={styles.info_info}>
+              <div className={styles.info_info}>                 
                 <h5>QUICK ACCESS</h5>
+                <ul>
+                  <li>
+                      {" "}
+                      <a
+                        // href='#'
+                        // style={{ color: "black", textDecoration: "none" }}
+                      >
+                        How to Book
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        // href='#'
+                        // style={{ color: "black", textDecoration: "none" }}
+                      >
+                        Our Work
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        // href='#'
+                        // style={{ color: "black", textDecoration: "none" }}
+                      >
+                        Our Services
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        // href='#'
+                        // style={{ color: "black", textDecoration: "none" }}
+                      >
+                        Our Clients
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        // href='#'
+                        // style={{ color: "black", textDecoration: "none" }}
+                      >
+                        Team Ninjas
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href='#'
+                        // style={{ color: "black", textDecoration: "none" }}
+                      >
+                        Careers
+                      </a>
+                    </li>
+                </ul>
+
               </div>
               
             </div>

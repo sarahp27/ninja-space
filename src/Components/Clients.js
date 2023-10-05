@@ -28,9 +28,22 @@ const [currentClient, setCurrentClient] = useState(0);
 
     // Add more client images here
   ];
+
+  const nextClient = () => {
+        setCurrentClient((currentClient + 1) % clients.length);
+      };
+    
+      const prevClient = () => {
+        setCurrentClient((currentClient - 1 + clients.length) % clients.length);
+      };
   return (
     <>
        <section className={styles.work_section} id="myWork">
+       <div
+      id='carouselExampleControls'
+      class='carousel slide'
+      data-ride='carousel'
+    >
         <div class='container'>
           <div className={styles.workNinja}>
           <div className={styles.heading_container} >
@@ -40,7 +53,7 @@ const [currentClient, setCurrentClient] = useState(0);
             <div class='col-md-4'>
               <div className ={styles.box}>
                 <div className={styles.imgBox}>
-                <img src={Client_1} alt='' width='200px'/>
+                <img src={clients[currentClient]} alt='' width='200px' />
                   
                 </div>
               </div>
@@ -48,7 +61,7 @@ const [currentClient, setCurrentClient] = useState(0);
             <div class='col-md-4'>
             <div className ={styles.box}>
                 <div className={styles.imgBox}>
-                <img src={Client_5} alt=''  width='200px'/>
+                <img src={clients[currentClient]} alt='' width='200px' />
                   
                 </div>
               </div>
@@ -56,12 +69,36 @@ const [currentClient, setCurrentClient] = useState(0);
             <div class='col-md-4'>
             <div className ={styles.box}>
                 <div className={styles.imgBox}>
-                <img src={Client_4} alt=''  width='200px'/>
+                <img src={clients[currentClient]} alt='' width='200px' />
                 </div>
               </div>
           </div>
             </div>
           </div>
+        </div>
+        <div className={styles.carousel_btn_box}>
+        <a
+        class='carousel-control-prev'
+          className={styles.carousel_control_prev}
+          
+          href='#carouselExampleControls'
+          role='button'
+          data-slide='prev'
+        >
+          <i class='fa fa-arrow-left' aria-hidden='true'></i>
+          <span class='sr-only'>Previous</span>
+        </a>
+        <a
+        class='carousel-control-next'
+          className={styles.carousel_control_next}
+          href='#carouselExampleControls'
+          role='button'
+          data-slide='next'
+        >
+          <i class="fa fa-arrow-right" aria-hidden='true'></i>
+          <span class='sr-only'>Next</span>
+        </a>
+      </div>
         </div>
       </section>
     </>

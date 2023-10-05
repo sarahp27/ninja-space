@@ -160,7 +160,7 @@ a:focus {
 
 .work_section {
     /* background-color: #1c1c1c; */
-    background-image: url("../images/BG_image_03.png");
+    background-image: url("../images/BG_image_01.png");
     color: #ffffff;
     background-size: cover;
   }
@@ -189,6 +189,9 @@ a:focus {
   }
   .workNinja{
     padding:80px 0px 10px 0px ;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
   
   }
   
@@ -220,17 +223,36 @@ a:focus {
     color: #f1db25;
   }
   
+
+  .client {
+    /* background-color: #1c1c1c; */
+    background-image: url("../images/BG_image_03.png");
+    color: #ffffff;
+    background-size: cover;
+  }
 /* Services section css*/
 
 
 .service_section {
     text-align: center;
+    /* background-color: #1c1c1c; */
+    background-image: url("../images/BG_image_02.png");
+    color: #ffffff;
+    background-size: cover;
+    padding: 30px;
   }
   
   .service_section #carouselExampleControls {
     padding: 0 10%;
   }
   
+  .service_section .heading_container {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
   .service_section .box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -286,29 +308,24 @@ a:focus {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    align-items: center;
   }
   
   .service_section .carousel_control_prev,
   .service_section .carousel_control_next {
     position: absolute;
-    top: 50%;
-    width: 45px;
-    height: 45px;
+    top: 60%;
+    width: 65px;
+    height: 65px;
+    padding: 15px;
     border: none;
     opacity: 1;
-    background-color: #231A53;
+    background-color: #0000;
     color: #ffffff;
     border-radius: 100%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     font-size: 18px;
-  }
-  
-  .service_section .carousel_control_prev:hover,
-  .service_section .carousel_control_next:hover {
-    background-color: #ffffff;
-    color: #231A53;
-    border:4px solid #231A53
   }
   
   .service_section .carousel_control_prev {
@@ -321,6 +338,15 @@ a:focus {
   }
   
 /* Meet ninjas Online section*/
+
+.team_section {
+  text-align: center;
+  /* background-color: #1c1c1c; */
+  background-image: url("../images/BG_image_02.png");
+  color: #ffffff;
+  background-size: cover;
+  padding: 30px;
+}
 
 .team_section .box {
   display: -webkit-box;
@@ -437,6 +463,123 @@ height: 100%;
   color: #ffffff;
   /* margin: 10px; */
 }
+.contact_section {
+  position: relative;
+  color: #ffffff;
+}
+
+.contact_section .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contact_section .contact_form_container {
+  margin-top: 35px;
+}
+
+.contact_section .contact_form_container input {
+  border: none;
+  outline: none;
+  /* color: #000000; */
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+  padding-left: 15px;
+  background-color: #ffffff;
+}
+
+.contact_section .contact_form_container input::-webkit-input-placeholder {
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.contact_section .contact_form_container input:-ms-input-placeholder {
+  /* color: #000000; */
+  text-transform: uppercase;
+}
+
+.contact_section .contact_form_container input::-ms-input-placeholder {
+  /* color: #000000; */
+  text-transform: uppercase;
+}
+
+.contact_section .contact_form_container input::placeholder {
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.contact_section .contact_form_container input.message_input {
+  height: 120px;
+}
+
+.contact_section .contact_form_container .btnBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.contact_section .contact_form_container button {
+  display: inline-block;
+  padding: 10px 60px;
+  /* background-color: #f1db25;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid transparent; */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact_section .contact_form_container button:hover {
+  /* background-color: transparent;
+  border-color: #f1db25;
+  color: #f1db25; */
+}
+
+.contact_bg_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contact_bg_box .imgBox {
+  width: 100%;
+}
+
+.contact_bg_box .imgBox img {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.contact_bg_box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.35))); */
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.35)); */
+}
+
 
 /*Footer section*/
 
@@ -541,4 +684,98 @@ height: 100%;
   margin-right: 10px;
   color: #231A53;
   font-size: 20px;
+
+}
+
+.info_section .info_info ul {
+  padding: 0;
+}
+
+.info_section .info_info ul li {
+  list-style-type: none;
+}
+
+.info_section .info_info ul li a{
+  color: #453c79;
+}
+
+.formsect{
+  background-image: url("../images/BG_image_02.png");
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.myform{
+  /* color: wheat; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+input{
+  height: 45px;
+  width: 40%;
+  border-radius: 20px;
+  padding: 5px;
+  border-style: none;
+}
+
+textarea{
+  padding: 5px;
+  /* height: 70px; */
+  width: 40%;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.btns{
+ 
+  display: flex;
+  align-items: center;
+}
+
+
+.prevBtn{
+  /* left:90%; */
+}
+
+.nextbtn{
+  /* right: 0; */
+  /* left: initial; */
+}
+
+/* Main.module.css */
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top:280%;
+  /* background-color: rgba(0, 0, 0, 0.5); Optional: Add a background color for better visibility */
+}
+
+.prevBtn,
+.nextBtn {
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+}
+
+.prevBtn {
+  /* margin-left: 10px; */
+}
+
+.nextBtn {
+  /* margin-right: 10px; */
 }

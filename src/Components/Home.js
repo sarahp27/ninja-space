@@ -1,6 +1,7 @@
 import React from "react";
 import banner2 from "../images/banner2.png";
-import styles from './Main.module.css'
+import styles from './Main.module.css';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 export default function Home() {
   return (
@@ -25,10 +26,13 @@ export default function Home() {
                           </h3>
                         </h1>
                         <div className= {styles.btnBox}>
-                          <button className={styles.ninjaBtns}>
+                        <Link to="meetNinjasonline" offset={-200}>
+                  
+                          <button className={styles.ninjaBtns} >
                             {" "}
                             Meet Ninjas Online
                           </button>
+                          </Link>
                         </div>
                     </div>
                   </div>

@@ -7,6 +7,7 @@ import TestClient from "./Components/TestClient";
 import Meet from './Components/Meet'
 import Footer from "./Components/Footer";
 import Connect from "./Components/Connect";
+import Connnect from "./Components/Connnect";
 // import styles from ''
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Services/>
     <TestClient/>
     <Meet/>
+    <Connnect/>
     {/* <Connect/> */}
     <Footer/>
     </>
