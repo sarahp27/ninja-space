@@ -36,7 +36,7 @@ export default function Navbar() {
           >
             <ul className='navbar-nav'>
               <li className='nav-item'>
-                <Link to="myHome" offset={-100} className='nav-link'>
+                <Link to="myHome"  spy={true} aria-current='page' offset={-100} className='nav-link'>
                   Home
                 </Link>
               </li>
@@ -52,12 +52,13 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link' to='myServices' offset={-200}>
+                <Link className='nav-link'
+                aria-current='page'  spy={true} to='myServices' offset={-200}>
                   Services
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link' to='myClients' offset={-200}>
+                <Link className='nav-link'  spy={true} aria-current='page' to='myClients' offset={-200}>
                   Our Clients
                 </Link>
               </li>
