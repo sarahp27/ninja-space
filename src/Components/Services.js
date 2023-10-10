@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import styles from './Main.module.css';
 import Service_2 from '../images/Service_2.png';
 import Service_3 from '../images/Service_3.png';
@@ -10,6 +10,26 @@ import Service_7 from '../images/Service_7.png';
 
 
 export default function Services() {
+
+  // const [currentService, setCurrentService] = useState(0);
+
+  // const services = [
+  //   Service_2,
+  //   Service_3,
+  //   Service_4,
+  //   Service_5,
+  //   Service_6,
+  //   Service_7
+  // ];
+
+  // const nextService = () => {
+  //   setCurrentService((currentService + 1) % services.length);
+  // };
+
+  // const prevService = () => {
+  //   setCurrentService((currentService - 1 + services.length) % clients.length);
+  // };
+
   return (
     <>
     {/* <!-- client section --> */}
@@ -98,17 +118,17 @@ export default function Services() {
         class='carousel-control-prev'
           className={styles.carousel_control_prev}
           
-          href=''
+          href='#carouselExampleControls'
           role='button'
           data-slide='prev'
         >
           <i class='fa fa-arrow-left' aria-hidden='true'></i>
-          {/* <span class='sr-only'>Previous</span> */}
+          <span class='sr-only'>Previous</span>
         </a>
         <a
         class='carousel-control-next'
           className={styles.carousel_control_next}
-          href=''
+          href='#carouselExampleControls'
           role='button'
           data-slide='next'
         >

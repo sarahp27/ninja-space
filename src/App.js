@@ -3,7 +3,6 @@ import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import Services from "./Components/Services";
 import Work from "./Components/Work";
-import TestClient from "./Components/TestClient";
 import Meet from './Components/Meet'
 import Footer from "./Components/Footer";
 import Connect from "./Components/Connect";
@@ -17,7 +16,7 @@ function App() {
     <Home/>
     <Work/>
     <Services/>
-    <TestClient/>
+    <Clients/>
     <Meet/>
     <Connnect/>
     {/* <Connect/> */}
