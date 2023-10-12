@@ -132,7 +132,7 @@ export default function Clients() {
         <div className='container'>
           <div className={styles.workNinja}>
             <div className={styles.heading_container}>
-              <h2><b>Our Clients</b></h2>
+              <h2><b>NINJA'S WORKED FOR </b></h2>
             </div>
 
             <div className='row'>

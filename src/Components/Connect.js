@@ -47,7 +47,7 @@ export default function Connect() {
             }}
           >
             <div className={styles.heading_container}>
-              <h2>Get In touch</h2>
+              <h2>GET IN TOUCH</h2>
             </div>
             {/* </div> */}
             <div class=''>

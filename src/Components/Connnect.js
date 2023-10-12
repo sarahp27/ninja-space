@@ -49,7 +49,7 @@ export default function Connnect() {
   return (
     <div>
       <section className={xyz.formsect} id='myGetInTouch'>
-      <h3> Get in touch </h3>
+      <h2> GET IN TOUCH</h2>
         <form id='contactForm' className={xyz.myform} onSubmit={handleSubmit}>
           <label htmlFor='name'>Name</label>
           <input id='name' type='text' name="sender_name" 

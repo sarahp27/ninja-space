@@ -21,16 +21,14 @@ export default function Work() {
         <div class='container'>
           <div className={styles.workNinja}>
           <div className={styles.heading_container} >
-            <h2><b>Ninja's Worked for</b></h2>
-            <p><b>At Ninja Space,</b> we are the dynamic architects of captivating visual storytelling. We
-            don't just design; we craft experiences that leave an indelible mark. From forging unforgettable logos
-            to sculpting captivating packaging and beyond, we infuse vitality into your brand's very essence.
-            Our mastery extends seamlessly to social media design and marketing, where we transcend ordinary 
-            ideas to create shareable, mesmerizing content. We hold an unswerving commitment to the pinnacle 
-            of branding excellence, making you shine brightly amidst the crowd. Every pixel, every concept, 
-            receives our utmost attention, fine-tuned to amplify your distinctive narrative. Join us to embark 
-            on extraordinary brand journeys, captivating hearts through groundbreaking design innovation. 
-            Elevate your brand with our boundless creativity, where imagination and impact converge in harmony.
+            <h2><b>OUR WORK</b></h2>
+            <p><b>At Ninja Space,</b> we create captivating visual stories that leave a lasting 
+            impression. From logos to packaging and social media design, we give your brand energy 
+            and vitality. Our commitment to excellence ensures every pixel and concept amplifies
+             your unique story. <b>Join us on a brand journey that captivates hearts and 
+              showcases groundbreaking design. Elevate your brand with our limitless creativity, 
+              where imagination and impact converge seamlessly.</b>
+
 </p>
           </div>
           <div class='row'>
@@ -43,11 +41,11 @@ export default function Work() {
                 <div className ={styles.detailBox}>
                   {/* <img src={Client_1} alt=''/> */}
                   <h6>Home Security</h6>
-                  <p>
+                  {/* <p>
                     Minima consequatur architecto eaque assumenda ipsam itaque
                     quia eum in doloribus debitis impedit ut minus tenetur
                     corrupti excepturi ullam.
-                  </p>
+                  </p> */}
                   <button className={styles.ninjaBtns} onClick={toHealit}>View Porfolio</button>
                   {/* <a href=''>Read More</a> */}
                 </div>
@@ -62,11 +60,11 @@ export default function Work() {
                 <div className ={styles.detailBox}>
                 {/* <img src={Client_1} alt=''/> */}
                   <h6>Office Security</h6>
-                  <p>
+                  {/* <p>
                     Minima consequatur architecto eaque assumenda ipsam itaque
                     quia eum in doloribus debitis impedit ut minus tenetur
                     corrupti excepturi ullam.
-                  </p>
+                  </p> */}
                   {/* <a href=''>Read More</a> */}
                   <button  className={styles.ninjaBtns} onClick={tosunday}>View Porfolio</button>
                 </div>
@@ -81,11 +79,11 @@ export default function Work() {
                 <div className ={styles.detailBox}>
                 {/* <img src={Client_1} alt=''/> */}
                   <h6>Bodyguard</h6>
-                  <p>
+                  {/* <p>
                     Minima consequatur architecto eaque assumenda ipsam itaque
                     quia eum in doloribus debitis impedit ut minus tenetur
                     corrupti excepturi ullam.
-                  </p>
+                  </p> */}
                   <button  className={styles.ninjaBtns} onClick={toBurger}>View Porfolio</button>
                   {/* <a href=''>Read More</a> */}
                 </div>

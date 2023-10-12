@@ -12,7 +12,7 @@ export default function Footer() {
               <div class='info_logo'>
                 <a class='navbar-brand' href='index.html'>
                   {/* <span>Guarder</span> */}
-                  <img src={logo02} alt='logo-02' width='250px' height='150px' />
+                  <img src={logo02} alt='logo-02' width='290px' height='170px' />
                 </a>
                 {/* <p>
                   dolor sit amet, consectetur magna aliqua. Ut enim ad minim
@@ -26,95 +26,44 @@ export default function Footer() {
                 <p>Infused with a blend of creativity, innovation, and strategic mastery, we transmute ideas into 
                   extraordinary visual tapestries. Join forces with Ninja Space, your creative partner in forging an 
                   indomitable brand presence across all dimensions. Step into the realm of endless possibilities and 
-                  unlock the magic with Ninja Space today!
-
-</p>
-                {/* <ul>
-                  <li>
-                    <a href=''>dolor sit amet, consectetur</a>
-                  </li>
-                  <li>
-                    <a href=''>magna aliqua. Ut enim ad</a>
-                  </li>
-                  <li>
-                    <a href=''>minim veniam,</a>
-                  </li>
-                  <li>
-                    <a href=''>quisdotempor incididunt r</a>
-                  </li>
-                </ul> */}
+                  unlock the magic with Ninja Space today!</p>
               </div>
             </div>
             <div class='col-md-3'>
               <div className={styles.info_info}>                 
-                <h5>QUICK ACCESS</h5>
-                <ul>
-                  <li>
+                <h5>QUICK <b>ACCESS</b></h5>
+                {/* <ul> */}
+                  {/* <li> */}
                       {" "}
-                      <a
-                        // href='#'
-                        // style={{ color: "black", textDecoration: "none" }}
-                      >
-                        How to Book
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        // href='#'
-                        // style={{ color: "black", textDecoration: "none" }}
-                      >
-                        Our Work
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        // href='#'
-                        // style={{ color: "black", textDecoration: "none" }}
-                      >
-                        Our Services
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        // href='#'
-                        // style={{ color: "black", textDecoration: "none" }}
-                      >
-                        Our Clients
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        // href='#'
-                        // style={{ color: "black", textDecoration: "none" }}
-                      >
-                        Team Ninjas
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href='#'
-                        // style={{ color: "black", textDecoration: "none" }}
-                      >
-                        Careers
-                      </a>
-                    </li>
-                </ul>
-
+                      <a>How to Book</a>
+                    {/* </li> */}
+                    {/* <li> */}
+                      <a>Our Work</a>
+                    {/* </li> */}
+                    {/* <li> */}
+                      <a> Our Services </a>
+                    {/* </li> */}
+                    {/* <li> */}
+                      <a> Our Clients </a>
+                    {/* </li> */}
+                    {/* <li> */}
+                      <a>Team Ninjas</a>
+                    {/* </li> */}
+                    {/* <li> */}
+                      <a>Careers </a>
+                    {/* </li> */}
+                {/* </ul> */}
               </div>
               
             </div>
             <div class='col-md-3'>
               <div className={styles.info_form }>
-                <h5>GET IN TOUCH</h5>
+                <h5>GET IN <b>TOUCH</b></h5>
                 {/* <form action='#'>
                   <input type='email' placeholder='Enter your email' />
                   <button>Subscribe</button>
                 </form> */}
                 <div className={styles.info_contact}>
-                {/* <a href='' class=''>
-                  <i class='fa fa-map-marker' aria-hidden='true'></i>
-                  <span>Lorem ipsum dolor sit amet,</span>
-                </a> */}
                 <a href='' class=''>
                   <i class='fa fa-phone' aria-hidden='true'></i>
                   <span>Call : +92 310 6955277</span>
