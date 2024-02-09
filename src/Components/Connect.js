@@ -1,6 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
-import BG_image_02 from "../images/BG_image_02.png";
+import BG_image_02 from "../images/BG_new_1.png";
 import styles from "./Main.module.css";
 
 export default function Connect() {
@@ -49,10 +49,8 @@ export default function Connect() {
             <div className={styles.heading_container}>
               <h2>GET IN TOUCH</h2>
             </div>
-            {/* </div> */}
             <div class=''>
               <div class='row'>
-                {/* <div class='col-md-7 mx-auto'> */}
                   <form>
                     <div>
                       <div className={styles.contact_form_container}>

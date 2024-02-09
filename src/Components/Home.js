@@ -20,11 +20,12 @@ export default function Home() {
                       <div className={styles.detailBox} style={{display:'flex', flexDirection:'column',alignItems:'center'}}>
                         <h1>
                           <b>Designing Tomorrow,</b> Today
+                          </h1>
                           <br />
                           <h3>
                             Your Vision, <b>Our Expertise</b>
                           </h3>
-                        </h1>
+                       
                         <div className= {styles.btnBox}>
                         <Link to="meetNinjasonline" offset={-200}>
                   

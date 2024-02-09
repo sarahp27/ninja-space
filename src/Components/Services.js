@@ -16,6 +16,7 @@ export default function Services() {
         <div class="container ">
           <div className={styles.heading_container}>
             <h2>OUR SERVICES</h2>
+            <p><b>Discover our services designed to turn your ideas into remarkable realities.</b></p>
             {/* <p>Welcome to Ninja Space, where we use our creativity and expertise to create captivating visual experiences.
                We offer a wide range of services that will elevate your brand and leave a lasting impression on your audience</p> */}
           </div>
@@ -28,13 +29,13 @@ export default function Services() {
               <div class="carousel-item active">
                 <div className={styles.box}>
                   <div className={styles.detailBox}>
-                    <h5><b>Minim Veniam</b></h5>
-                    <p>
+                    {/* <h5><b>Minim Veniam</b></h5> */}
+                    {/* <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                       ullamco laboris nisi ut aliquip
-                    </p>
+                    </p> */}
                   </div>
                   <div className={styles.imgBox}>
                     <img src={Service_2} alt="" />
@@ -44,13 +45,13 @@ export default function Services() {
               <div class="carousel-item">
                 <div className={styles.box}>
                   <div className={styles.detailBox}>
-                    <h5><b>Minim Veniam</b></h5>
-                    <p>
+                    {/* <h5><b>Minim Veniam</b></h5> */}
+                    {/* <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                       ullamco laboris nisi ut aliquip
-                    </p>
+                    </p> */}
                   </div>
                   <div className={styles.imgBox}>
                     <img src={Service_3} alt="" />
@@ -60,13 +61,13 @@ export default function Services() {
               <div class="carousel-item">
                 <div className={styles.box}>
                   <div className={styles.detailBox}>
-                    <h5><b>Minim Veniam</b></h5>
-                    <p>
+                    {/* <h5><b>Minim Veniam</b></h5> */}
+                    {/* <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                       ullamco laboris nisi ut aliquip
-                    </p>
+                    </p> */}
                   </div>
                   <div className={styles.imgBox}>
                     <img src={Service_4} alt="" />
@@ -76,13 +77,13 @@ export default function Services() {
               <div class="carousel-item">
                 <div className={styles.box}>
                   <div className={styles.detailBox}>
-                    <h5>Minim Veniam</h5>
-                    <p>
+                    {/* <h5>Minim Veniam</h5> */}
+                    {/* <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                       ullamco laboris nisi ut aliquip
-                    </p>
+                    </p> */}
                   </div>
                   <div className={styles.imgBox}>
                     <img src={Service_5} alt="" />

@@ -164,7 +164,7 @@ a:focus {
 
 .work_section {
   /* background-color: #1c1c1c; */
-  background-image: url("../images/BG_image_03.png");
+  background-image: url("../images/BG_image_01.png");
   color: #ffffff;
   background-size: cover;
 }
@@ -186,7 +186,7 @@ a:focus {
   text-align: center;
   /* -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2); */
   /* box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2); */
-  margin-top: 45px;
+  margin: 45px;
 }
 
 .work_section .box .imgBox svg {
@@ -234,9 +234,10 @@ a:focus {
 
 .client {
   /* background-color: #1c1c1c; */
-  background-image: url("../images/BG_image_03.png");
+  background-image: url("../images/BG_image_04.png");
   color: #ffffff;
   background-size: cover;
+  /* padding: 50px; */
 }
 
 /* Services section css*/
@@ -245,7 +246,7 @@ a:focus {
 .service_section {
   text-align: center;
   /* background-color: #1c1c1c; */
-  background-image: url("../images/BG_image_02.png");
+  background-image: url("../images/BG_image_03.png");
   color: #ffffff;
   background-size: cover;
   padding: 30px;
@@ -361,7 +362,8 @@ a:focus {
   background-image: url("../images/BG_image_02.png");
   color: #ffffff;
   background-size: cover;
-  padding: 30px;
+  padding: 90px;
+  
 }
 
 .team_section .box {
@@ -375,20 +377,21 @@ a:focus {
   overflow: hidden;
   margin-top: 45px;
   position: relative;
+  margin-left: 55px;
+  /* margin: 55px; */
 }
 
 .team_section .box .img-box {
-  width: 100%;
+  width: 80%;
 }
 
 .team_section .box .img-box img {
-  width: 100%;
+  width: 80%;
 }
 
 
-
 .team_section .box .detail-box:hover {
-  height: 100%;
+  height: 80%;
 }
 
 .team_section .btn-box {
@@ -439,6 +442,9 @@ a:focus {
   height: 100%;
 }
 
+.ninjacontainer{
+  /* margin-left: ; */
+}
 
 .image {
   display: block;
@@ -591,6 +597,7 @@ a:focus {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 50px;
 }
 
 .myform {
@@ -606,7 +613,7 @@ a:focus {
 
 input {
   height: 45px;
-  width: 80%;
+  width: 65%;
   border-radius: 20px;
   padding: 12px;
   border-style: none;
@@ -617,7 +624,7 @@ input {
 textarea {
   /* padding: 5px; */
   /* height: 70px; */
-  width: 80%;
+  width: 65%;
   padding: 12px;
   border-radius: 20px;
   outline: none;
@@ -648,9 +655,9 @@ textarea {
   position: absolute;
   width: 100%;
   bottom: 0;
-  left: 0;
-  right: 0;
-  top: 328%;
+  left: 5px;
+  right: 5px;
+  top: 305%;
   transition: .9s ease;
   /* background-color: rgba(0, 0, 0, 0.5); Optional: Add a background color for better visibility */
 }
@@ -669,4 +676,40 @@ textarea {
 
 .nextBtn {
   /* margin-right: 10px; */
+}
+
+
+@media (min-width: 200px) and (max-width: 1024px) {
+  .btns {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    top: 455%;
+    transition: .9s ease;
+    /* background-color: rgba(0, 0, 0, 0.5); Optional: Add a background color for better visibility */
+  }
+  
+  .service_section .box .imgBox {
+    /* width: 145px; */
+    width: 100%;
+  }
+  
+  .service_section .box .imgBox img {
+    width: 100%;
+  }
+
+  .service_section .carousel_control_prev {
+    left: 0;
+  }
+  
+  .service_section .carousel_control_next {
+    left: initial;
+    right: 0;
+  }
+
 }

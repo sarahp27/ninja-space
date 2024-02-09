@@ -78,7 +78,7 @@ export default function Navbar() {
                   spy={true}
                   aria-current="page"
                   to="myClients"
-                  offset={-200}
+                  offset={-100}
                 >
                   Our Clients
                 </Link>
@@ -97,7 +97,7 @@ export default function Navbar() {
                 <button className={styles.ninjaBtns}>Request a Meeting</button>
               </li>
               <li className="nav-item">
-                <Link to="myGetInTouch" offset={-200}>
+                <Link to="myGetInTouch" offset={-100}>
                   <button className={styles.ninjaBtns}>
                     <i class="fa fa-envelope"></i>
                     Get in Touch

@@ -11,18 +11,13 @@ export default function Footer() {
             <div class='col-md-3'>
               <div class='info_logo'>
                 <a class='navbar-brand' href='index.html'>
-                  {/* <span>Guarder</span> */}
                   <img src={logo02} alt='logo-02' width='290px' height='170px' />
                 </a>
-                {/* <p>
-                  dolor sit amet, consectetur magna aliqua. Ut enim ad minim
-                  veniam, quisdotempor incididunt r
-                </p> */}
               </div>
             </div>
             <div class='col-md-3'>
               <div className={styles.info_links}>
-                <h5>About US</h5>
+                <h5><b>ABOUT US</b></h5>
                 <p>Infused with a blend of creativity, innovation, and strategic mastery, we transmute ideas into 
                   extraordinary visual tapestries. Join forces with Ninja Space, your creative partner in forging an 
                   indomitable brand presence across all dimensions. Step into the realm of endless possibilities and 
@@ -66,13 +61,14 @@ export default function Footer() {
                 <div className={styles.info_contact}>
                 <a href='' class=''>
                   <i class='fa fa-phone' aria-hidden='true'></i>
-                  <span>Call : +92 310 6955277</span>
+                  <span> +92 310 6955277</span>
                 </a>
+                {/* <p>Email</p> */}
                 <a href='' class=''>
                   <i class='fa fa-envelope' aria-hidden='true'></i>
-                  <span>Email: ninjaspace.design@gmail.com</span>
+                  <span>ninjaspace.design@gmail.com</span>
                 </a>
-              </div>
+              
                 <div className={styles.social_box}>
                   <a href='https://www.facebook.com/people/Ninja-Space/100092543247847/'>
                     <i class='fa fa-facebook' aria-hidden='true'></i>
@@ -92,6 +88,7 @@ export default function Footer() {
                   <a href="https://www.linkedin.com/in/ninja-space-designs-231456278/">
                     <i class='fa fa-linkedin' aria-hidden='true'></i>
                   </a>
+                  </div>
                 </div>
               </div>
             </div>
